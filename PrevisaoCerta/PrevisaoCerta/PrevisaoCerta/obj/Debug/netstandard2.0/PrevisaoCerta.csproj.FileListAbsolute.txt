@@ -1,0 +1,12 @@
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\bin\Debug\netstandard2.0\PrevisaoCerta.deps.json
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\bin\Debug\netstandard2.0\PrevisaoCerta.dll
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\bin\Debug\netstandard2.0\PrevisaoCerta.pdb
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\obj\Debug\netstandard2.0\PrevisaoCerta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\obj\Debug\netstandard2.0\PrevisaoCerta.AssemblyInfoInputs.cache
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\obj\Debug\netstandard2.0\PrevisaoCerta.AssemblyInfo.cs
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\obj\Debug\netstandard2.0\PrevisaoCerta.csproj.CoreCompileInputs.cache
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\obj\Debug\netstandard2.0\PrevisaoCerta.dll
+C:\Projetos\PrevisaoCerta\PrevisaoCerta\PrevisaoCerta\obj\Debug\netstandard2.0\PrevisaoCerta.pdb

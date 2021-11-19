@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PrevisaoCerta"
+             x:Class="PrevisaoCerta.MainPage"
+             BackgroundColor="Black">
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" Margin="7,0,0,0" VerticalOptions="Center">
+            <Image HeightRequest="25"
+                   WidthRequest="25"
+                   Source="icone"/>
+
+            <Label Text="PrevisãoCerta" 
+                   TextColor="White"
+                   FontFamily="Roboto"
+                   FontSize="20"
+                   FontAttributes="Bold"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ScrollView>
+        <StackLayout Margin="20, 20, 20, 20">
+            <Label Text="Insira uma cidade do país:"
+               TextColor="White"
+               FontAttributes="Bold"
+               FontFamily="Roboto"
+               FontSize="16"/>
+
+            <Entry x:Name="txtCity"
+               BackgroundColor="White"
+               FontSize="16"
+               HorizontalTextAlignment="Center"
+               Focused="GetLocalization"/>
+
+            <Button x:Name="btnForecast"
+                Text="Ver Previsão do Tempo"
+                TextColor="White"
+                BackgroundColor="#00A587"
+                Clicked="GetForecast"
+                Margin="15,30,15,0"
+                FontSize="16"
+                FontAttributes="Bold"
+                FontFamily="Roboto"
+                BorderRadius="10"/>
+
+            <StackLayout x:Name="slResult" Margin="0,40,0,10" IsVisible="False">
+                <BoxView Color="#00A587"
+                     HeightRequest="2"
+                     HorizontalOptions="Fill"/>
+
+                <Label Margin="0,20,0,0"
+                   Text="Mostrando resultado para a cidade:"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontFamily="Roboto"
+                   FontSize="16"
+                   HorizontalTextAlignment="Center"/>
+
+                <Frame x:Name="frmAlert" BorderColor="#00A587" CornerRadius="5" Margin="0,20,0,0" Padding="5" BackgroundColor="Black" IsVisible="False">
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="lblCityAlert"
+                           Text="Nome Cidade"
+                           TextColor="White"
+                           FontFamily="Roboto"
+                           FontSize="24"
+                           FontAttributes="Bold"/>
+                            <Image HorizontalOptions="EndAndExpand"
+                               Source="atencao"
+                               HeightRequest="30"
+                               WidthRequest="30"/>
+                        </StackLayout>
+
+                        <BoxView Color="#00A587"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+
+                        <Label x:Name="lblMsgAlert"
+                           Text="Existe um alerta de clima severo para esta cidade"
+                           TextColor="Yellow"
+                           FontAttributes="Bold"
+                           FontFamily="Roboto"
+                           FontSize="16"/>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Severidade do Alerta:"
+                               TextColor="#00A587"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                            <Label x:Name="lblSeverityAlert"
+                               Text="Aviso"
+                               TextColor="White"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Expiração do Alerta:"
+                               TextColor="#00A587"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                            <Label x:Name="lblExpireAlert"
+                               Text="01/01/0001"
+                               TextColor="White"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                        </StackLayout>
+
+                        <Frame BorderColor="#00A587" CornerRadius="5" Padding="5" BackgroundColor="Black">
+                            <Label x:Name="lblSuggestionAlert"
+                           Text="Prepare-se e proteja-se contra possíveis inundações, alagamentos ou temperaturas extremas!"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           FontFamily="Roboto"
+                           FontAttributes="Bold"
+                           FontSize="16"/>
+                        </Frame>
+                    </StackLayout>
+                </Frame>
+
+                <Frame x:Name="frmForecast" BorderColor="#00A587" CornerRadius="5" Margin="0,20,0,0" Padding="5" BackgroundColor="Black" IsVisible="False">
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="lblCityForecast"
+                               Text="Nome Cidade"
+                               TextColor="White"
+                               FontFamily="Roboto"
+                               FontSize="24"
+                               FontAttributes="Bold"/>
+                            <Label x:Name="lblTemp"
+                               Text="0º C"
+                               TextColor="White"
+                               FontFamily="Roboto"
+                               FontSize="22"
+                               FontAttributes="Bold"
+                               HorizontalOptions="EndAndExpand"/>
+                            <Image x:Name="imgIcone"
+                               HorizontalOptions="End"
+                               Source="atencao"
+                               HeightRequest="30"
+                               WidthRequest="30"/>
+                        </StackLayout>
+
+                        <BoxView Color="#00A587"
+                             HeightRequest="2"
+                             HorizontalOptions="Fill"/>
+
+                        <Label x:Name="lblMsgNoAlert"
+                           Text="Cidade sem alerta climático no momento"
+                           TextColor="Yellow"
+                           FontAttributes="Bold"
+                           FontFamily="Roboto"
+                           FontSize="16"/>
+                        
+                        <Label x:Name="lblWeather"
+                           Text="Dia quente e céu aberto"
+                           TextColor="White"
+                           FontAttributes="Bold"
+                           FontFamily="Roboto"
+                           FontSize="16"/>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Sensação Térmica:"
+                               TextColor="#00A587"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                            <Label x:Name="lblFeelsTemp"
+                               Text="0 C"
+                               TextColor="White"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Precipitação:"
+                               TextColor="#00A587"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                            <Label x:Name="lblPrecip"
+                               Text="0 mm"
+                               TextColor="White"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Umidade do Ar:"
+                               TextColor="#00A587"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                            <Label x:Name="lblHumidity"
+                               Text="0 %"
+                               TextColor="White"
+                               FontFamily="Roboto"
+                               FontSize="16"/>
+                        </StackLayout>
+
+                        <Frame BorderColor="#00A587" CornerRadius="5" Padding="5" BackgroundColor="Black">
+                            <Label x:Name="lblSuggestionForecast"
+                           Text="Sugerimos ficar em casa, tomar um chocolate quente e curtir seu streaming preferido!"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           FontFamily="Roboto"
+                           FontAttributes="Bold"
+                           FontSize="16"/>
+                        </Frame>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <ActivityIndicator IsRunning="{Binding IsLoading}"
+                           IsVisible="{Binding IsLoading}"
+                           Color="#00A587"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

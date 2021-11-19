@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "dtnKZboAx+k08P9+macc3kqY+MpEY63B9fbB5rkRgXHj5ks/rpRZsDtBuwx5B3e6uywBP3ppm34Xu+/rZv6Eog==",
+  "success": true,
+  "projectFilePath": "D:\\Documents\\Documents\\UNIP\\2021\\8º semestre\\APS\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MisterOne_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\MisterOne_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\MisterOne_\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\MisterOne_\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+    "C:\\Users\\MisterOne_\\.nuget\\packages\\xamarin.forms\\3.4.0.1008975\\xamarin.forms.3.4.0.1008975.nupkg.sha512"
+  ],
+  "logs": []
+}

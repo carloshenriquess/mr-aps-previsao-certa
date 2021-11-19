@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.Android\\PrevisaoCerta.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.Android\\PrevisaoCerta.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.Android\\PrevisaoCerta.Android.csproj",
+        "projectName": "PrevisaoCerta.Android",
+        "projectPath": "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.Android\\PrevisaoCerta.Android.csproj",
+        "packagesPath": "C:\\Users\\Vitor\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {
+              "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.csproj": {
+                "projectPath": "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.4.0.1008975, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.csproj",
+        "projectName": "PrevisaoCerta",
+        "projectPath": "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta.csproj",
+        "packagesPath": "C:\\Users\\Vitor\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\PrevisaoCerta\\PrevisaoCerta\\PrevisaoCerta\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.4.0.1008975, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4fd54283-e622-455e-bd1a-046aa5857b48": {
+      "ProjectGuid": "4fd54283-e622-455e-bd1a-046aa5857b48",
+      "DisplayName": "PrevisaoCerta",
+      "ColorIndex": 0
+    },
+    "49259385-4f56-496c-8e50-3f650b7f3f6a": {
+      "ProjectGuid": "49259385-4f56-496c-8e50-3f650b7f3f6a",
+      "DisplayName": "PrevisaoCerta.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
