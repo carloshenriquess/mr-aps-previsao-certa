@@ -1,0 +1,70 @@
+https://api.weatherbit.io/v2.0/alerts?&city=saopaulo,BR&key=64a240bb0c364b3381839ca84fc84d97
+{"country_code":"BR","lon":-46.63611,"timezone":"America\/Sao_Paulo","lat":-23.5475,"alerts":[],"city_name":"Sao Paulo","state_code":"27"}
+
+Requisicao do App:https://currentweatherapi.azurewebsites.net/alertWeather?lat=-23.5475&lon=-46.63611
+Requisicao pra API de clima:https://api.weatherbit.io/v2.0/alerts?lat=-23.5475&lon=-46.63611&key=64a240bb0c364b3381839ca84fc84d97
+Retorno API do clima:{"country_code":"BR","lon":-46.64,"timezone":"America\/Sao_Paulo","lat":-23.55,"alerts":[],"city_name":"São Paulo","state_code":"27"}
+
+Retorno pro App:{
+  "country_code": "BR",
+  "lon": -46.64,
+  "timezone": "America/Sao_Paulo",
+  "lat": -23.55,
+  "alerts": [],
+  "city_name": "São Paulo",
+  "state_code": "27"
+}
+Requisicao do App:https://currentweatherapi.azurewebsites.net/alertWeather?lat=-23.5475&lon=-46.63611
+Requisicao pra API de clima:https://api.weatherbit.io/v2.0/alerts?lat=-23.5475&lon=-46.63611&key=64a240bb0c364b3381839ca84fc84d97
+Retorno API do clima:{"country_code":"BR","lon":-46.64,"timezone":"America\/Sao_Paulo","lat":-23.55,"alerts":[],"city_name":"São Paulo","state_code":"27"}
+
+Retorno pro App:{
+  "country_code": "BR",
+  "lon": -46.64,
+  "timezone": "America/Sao_Paulo",
+  "lat": -23.55,
+  "alerts": [],
+  "city_name": "São Paulo",
+  "state_code": "27"
+}
+Requisicao do App:
+https://currentweatherapi.azurewebsites.net/alertWeather?lat=-23.5475&lon=-46.63611
+12/10/2021 18:48:55
+Requisicao pra API de clima:
+https://api.weatherbit.io/v2.0/alerts?lat=-23.5475&lon=-46.63611&key=64a240bb0c364b3381839ca84fc84d97
+12/10/2021 18:50:08
+Retorno API do clima:
+{"country_code":"BR","lon":-46.64,"timezone":"America\/Sao_Paulo","lat":-23.55,"alerts":[],"city_name":"São Paulo","state_code":"27"}
+
+12/10/2021 18:50:12
+Retorno pro App:
+{
+  "country_code": "BR",
+  "lon": -46.64,
+  "timezone": "America/Sao_Paulo",
+  "lat": -23.55,
+  "alerts": [],
+  "city_name": "São Paulo",
+  "state_code": "27"
+}
+12/10/2021 18:50:12
+Requisicao do App:
+https://currentweatherapi.azurewebsites.net/alertWeatherByCityCountry?city=saopaulo&country=BR
+13/10/2021 22:39:54
+Requisicao pra API de clima:
+https://api.weatherbit.io/v2.0/alerts?&city=saopaulo,BR&key=64a240bb0c364b3381839ca84fc84d97
+13/10/2021 22:39:54
+Retorno API do clima:
+{"country_code":"BR","lon":-46.63611,"timezone":"America\/Sao_Paulo","lat":-23.5475,"alerts":[],"city_name":"Sao Paulo","state_code":"27"}
+
+13/10/2021 22:39:55
+Requisicao do App:
+https://currentweatherapi.azurewebsites.net/alertWeatherByCityCountry?city=saopaulo&country=BR
+13/10/2021 22:44:21
+Requisicao pra API de clima:
+https://api.weatherbit.io/v2.0/alerts?&city=saopaulo,BR&key=64a240bb0c364b3381839ca84fc84d97
+13/10/2021 22:44:21
+Retorno API do clima:
+{"country_code":"BR","lon":-46.63611,"timezone":"America\/Sao_Paulo","lat":-23.5475,"alerts":[],"city_name":"Sao Paulo","state_code":"27"}
+
+13/10/2021 22:44:22
